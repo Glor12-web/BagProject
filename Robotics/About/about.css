@@ -1,0 +1,87 @@
+body {
+    background: #000;
+    color: white;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+.heading h1 {
+    text-align: center;
+    margin-bottom: 4rem;
+    background-color: #002e52;
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.about-us a {
+    text-decoration: none;
+}
+
+.about-us img {
+    max-width: 50vw;
+    border-radius: 2rem;
+}
+
+.btn {
+    position: relative;
+    background-color: #002e52;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.goals {
+    margin-top: 4rem;
+}
+
+.goals h2 {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.goals h4 {
+    text-align: center;
+}
+
+.boxcon {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 30px;
+    padding: 10px;
+}
+
+.box {
+    background: #fff;
+    color: black;
+    margin-right: 2rem;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s ease;
+}
+
+.btn2 {
+    color: #002e52;
+}
+
+.box:hover {
+    box-shadow: 2px 5px 10px #002e52;
+}
+
+.plans {
+    margin-top: 4rem;
+}
+
+.plans h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
